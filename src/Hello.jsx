@@ -7,7 +7,7 @@ const Hello = (props)=>{
             <h1>Hello WORLD</h1>
             <p>Just for your knowlegde that must use () 
                 when working with the default cuz it give  only single output </p>
-            <p>{this.props.greetings}</p>
+            <p>{props.greetings}</p>
             </div>
         );
 }
